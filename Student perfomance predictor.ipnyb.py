@@ -53,4 +53,5 @@ def predict_score(hours):
 print("\nScore Prediction Tool")
 study_hours = float(input("Enter number of study hours: "))
 predicted_score = predict_score(study_hours)
+
 print(f"Predicted score for {study_hours} hours: {predicted_score:.2f}")
